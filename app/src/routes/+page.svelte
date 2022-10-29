@@ -4,7 +4,8 @@
 </script>
 
 <h2 class="text-lg font-bold">Introducing</h2>
-<h1 class="text-7xl font-bold leading-10">ngelingke</h1>
+<!-- <div class="wrapper"></div> -->
+<h1 class="text-7xl font-bold leading-10 typing-animation">ngelingke</h1>
 <p class="my-6 text-xl font-bold">
   The traditional way to remember things using flash card ⚡️
 </p>
