@@ -9,17 +9,3 @@ services:
         container_name: ngelingke
         ports:
           - "1234:80"
-
-        # networks:
-        #   - proxy
-        # labels:
-        #   - "traefik.enable=true"
-        #   - "traefik.docker.network=proxy"
-        #   - "traefik.http.routers.pmt-dashboard.tls=true"
-        #   - "traefik.http.routers.pmt-dashboard.entrypoints=websecure"
-        #   - "traefik.http.routers.pmt-dashboard.rule=Host(`staging-pmt.teamdev.id`)"
-        #   - "traefik.http.routers.pmt-dashboard.service=pmt-dashboard"
-        #   - "traefik.http.services.pmt-dashboard.loadbalancer.server.port=80"
-# networks:
-#   proxy:
-#     external: true
