@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+    ngelingke:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: always
+        image: ngelingke:latest
+        container_name: ngelingke
+        ports:
+          - "1234:80"
